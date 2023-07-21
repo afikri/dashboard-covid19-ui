@@ -1,0 +1,131 @@
+/* styles.css */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pie-chart {
+  flex: 1 1 300px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Add some basic styling to the chart container */
+.chart {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style for the x-axis ticks */
+.chart .x-axis text {
+  font-size: 12px;
+  fill: #333;
+}
+
+/* Style for the y-axis ticks */
+.chart .y-axis text {
+  font-size: 12px;
+  fill: #333;
+}
+
+/* Style for the bars in the stacked bar chart */
+.chart rect {
+  transition: fill 0.3s;
+}
+
+/* Add some hover effect to the bars */
+.chart rect:hover {
+  fill: #f39c12;
+}
+
+/* Style for the legend */
+.chart .legend {
+  font-size: 12px;
+  fill: #333;
+}
+
+/* Style for the legend rectangles */
+.chart .legend rect {
+  stroke: #333;
+  stroke-width: 1;
+}
+
+/* Style for the legend text */
+.chart .legend text {
+  font-size: 12px;
+  fill: #333;
+}
+
+/* Style for the legend container */
+.chart .legend-container {
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+/* styles.css */
+
+/* Style for the stacked bar chart container */
+.stacked-bar-chart {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the legend */
+.legend {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.legend rect {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+/* Style for the x-axis */
+.x-axis text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* Style for the y-axis */
+.y-axis text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* Style for the chart title */
+.chart-title {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the chart subtitle */
+.chart-subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
